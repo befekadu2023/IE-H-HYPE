@@ -1,1 +1,2 @@
 # IE-H-HYPE
+This is a modified H-HYPE hydrological and water quality modelling tool that replaces the operator-splitting sequential calculation numerical scheme of the H-HYPE by the robust fixed-step implicit Euler numerical scheme. It transforms the differential equations used by H-HYPE to solve percolation, lateral soil fluxe, and evapotranspiration into a state-space formulation and solves the fluxes generated from all soil layers simultaneously. This version of HYPE is referred to as IE-H-HYPE.
